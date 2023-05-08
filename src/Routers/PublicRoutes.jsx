@@ -9,7 +9,7 @@ export const PublicRoutes = () => {
     <Routes>
         <Route path="login" element={ <LoginPage /> } />
         <Route path="register" element={ <RegisterPage /> } />
-        <Route path="register" element={ <ForgotPasswordPage /> } />
+        <Route path="forgotpass" element={ <ForgotPasswordPage /> } />
         <Route path='/*' element={ <Navigate to="/auth/login" /> } />
     </Routes>
   )
